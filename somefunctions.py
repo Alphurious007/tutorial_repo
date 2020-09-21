@@ -1,5 +1,6 @@
-import math
-
+#%%
+import random
+#%%
 def newFunction ():
-    x = math.random()
+    x = random.random() * 100
     print(x)
