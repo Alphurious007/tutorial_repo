@@ -3,4 +3,7 @@ import random
 #%%
 def newFunction ():
     x = random.random() * 100
-    print(x)
+    return x
+
+def formattedPrint(username, output):
+    print(f'{username}: {output}')
